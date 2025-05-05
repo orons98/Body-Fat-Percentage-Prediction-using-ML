@@ -1,18 +1,21 @@
 # Body-Fat-Percentage-Prediction-using-ML
 #Project Overvew#
-This project explores the use of machine learning tp estimate body fat percentage using anthropometric measurements. The goal is to devlop an accurate, accessible and non invasive model that overcomes the limitations of BMI and other traditional bod fat estimation techniques.
+This project explores the use of machine learning tp estimate body fat percentage using anthropometric measurements. The goal is to devlop an accurate, accessible and non invasive model that overcomes the limitations of BMI and other traditional body fat estimation methods.
 
 # Research Question
-Can machine learning models accurately predict body fat percentage using simple body measurements, and how do they compare to traditional estiamtion methods?
+To what extent can machine learning models accurately predict body fat percentage using anthropometric measurements, and how do their predictions compare to traditional estimation methods like BMI and DEXA scans?
 
 # Objectives
-- Identify key features (e.g.,waist, hip, weight) that contribute to accurate predictions.
-- Develop and evaluate machine learning models for body fatestimation.
-- Provide an accessible alternative to BMI, expensive medical tests, and subjective estimates
+-	Prepare and clean dataset for anthropometric measurements for modelling.
+-	Conduct exploratory data analysis to understand feature relationships.
+-	Implement three machine learning models: Linear Regression with backward stepwise feature selection, Random Forest, and XGBoost, for predicting BFP.
+-	Evaluate and compare model performance using Mean Squared Error, Mean Absolute Error, Root Mean Squared Error and R2 score metrics.
+-	Critically assess how model performance compared to traditional methods such as BMI and DEXA in context of existing literature.
+-	Assess the potential for real world application in healthcare and personal wellness contexts.
 
 # Dataset
 https://www.kaggle.com/datasets/fedesoriano/body-fat-prediction-dataset
-- Contains anthropometric measurements
+- Contains 15 anthropometric measurements 
 - Used for training and testing various ML models
 
 # Technologies and Methods Used
@@ -22,6 +25,6 @@ https://www.kaggle.com/datasets/fedesoriano/body-fat-prediction-dataset
 - Matplotlib, Seaborn (Data Visualisation)
 
 Models
-- Methods for training the 3 models Linear regression, Random Forest, XGBoost
-- Models are evaluated based RMSE, MAE and R2 Score
+- Methods for training the 3 models: Linear regression, Random Forest, XGBoost
+- Models are evaluated based MSE, RMSE, MAE and R2 Score
 
