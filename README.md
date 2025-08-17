@@ -1,5 +1,5 @@
 # Body-Fat-Percentage-Prediction-using-ML
-#Project Overvew#
+## Project Overview  
 This project explores the use of machine learning tp estimate body fat percentage using anthropometric measurements. The goal is to devlop an accurate, accessible and non invasive model that overcomes the limitations of BMI and other traditional body fat estimation methods.
 
 # Research Question
