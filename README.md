@@ -18,11 +18,8 @@ https://www.kaggle.com/datasets/fedesoriano/body-fat-prediction-dataset
 - Contains 15 anthropometric measurements 
 - Used for training and testing various ML models
 
-## Technologies and Methods Used
-- Python
-- Google Colab
-- Pandas, NumPy, Scikit-Learn (Data processing and Modeling)
-- Matplotlib, Seaborn (Data Visualisation)
+## Tools & Libraries
+Python, Pandas, Scikit-learn, XGBoost, Statsmodels, Seaborn, Matplotlib, Google Colab
 
 ## Models
 - Methods for training the 3 models: Linear regression, Random Forest, XGBoost
@@ -32,3 +29,8 @@ https://www.kaggle.com/datasets/fedesoriano/body-fat-prediction-dataset
 - XGBoost outperformed other models (R² = 0.67, RMSE = 3.91)
 - Abdomen circumference was the most predictive feature
 - Demonstrated practical use case for non-invasive body composition analysis
+
+## How to Run
+1. Open the notebook in Google Colab or Jupyter
+2. Run all cells from top to bottom
+3. Data file: `bodyfat.csv` must be in the same directory
